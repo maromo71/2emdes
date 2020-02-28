@@ -17,6 +17,6 @@ public class Main {
         for (int i = fim; i >= 0; i--) {
             invertido += nome.charAt(i);
         }
-        System.out.println("Nome invertido: " + invertido); 
+        System.out.println("Nome invertido: " + invertido);
     }
 }
