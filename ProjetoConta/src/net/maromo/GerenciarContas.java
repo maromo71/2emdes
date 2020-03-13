@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class GerenciarContas {
 
     public Conta conta1 = new Conta();
-
     public static void main(String[] args) {
         //1. Entrada do programa
         Scanner sc = new Scanner(System.in);
