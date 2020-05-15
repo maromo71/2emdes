@@ -3,6 +3,8 @@ package net.maromo;
 public class GerenciarLivros {
 
     public static void main(String[] args) {
+
+        for(int i =0;i<5 && (i%2)==0;i++) System.out.print(" " + i++);
 	    //Cadastrar dois tipos de livros e comprar 10 volumes de cada
         Livro livro1 = new Livro();
         Livro livro2 = new Livro();
