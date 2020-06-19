@@ -12,7 +12,6 @@ title __MAROMO's Class Diagram__\n
         + getModelo()
         + getPlaca()
         + getValor()
-        + imprimirDadosCarro()
         + setAno()
         + setModelo()
         + setPlaca()
@@ -23,16 +22,7 @@ title __MAROMO's Class Diagram__\n
 
   namespace net.maromo {
     class net.maromo.GerenciarCarros {
-        ~ listadeCarros : List<Carro>
-        ~ listadePessoas : List<Pessoa>
-        + GerenciarCarros()
-        + adicionarCarroParaProprietario()
-        + cadastrarPessoa()
-        + cadastrarVeiculo()
-        + listarCarros()
-        + listarPessoas()
         {static} + main()
-        + transferirPropriedade()
     }
   }
   
@@ -40,21 +30,16 @@ title __MAROMO's Class Diagram__\n
   namespace net.maromo {
     class net.maromo.Pessoa {
         - carros : List<Carro>
-        - codPessoa : int
-        - dataNascimento : LocalDate
+        - dataNascimento : Date
         - endereco : String
         - nome : String
         - telefone : String
-        + adicionarCarroAdquirido()
         + getCarros()
-        + getCodPessoa()
         + getDataNascimento()
         + getEndereco()
         + getNome()
         + getTelefone()
-        + imprimirDadosDaPessoa()
         + setCarros()
-        + setCodPessoa()
         + setDataNascimento()
         + setEndereco()
         + setNome()

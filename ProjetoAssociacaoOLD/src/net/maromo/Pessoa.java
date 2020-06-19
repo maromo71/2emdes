@@ -5,12 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Pessoa {
-    private int codPessoa;
     private String nome;
     private String endereco;
     private String telefone;
     private LocalDate dataNascimento;
-    //Importante - instanciar o seu atributo da lista
+    //Importante - isntanciar o seu atributo da lista
     private List<Carro> carros = new ArrayList<>();
 
     public List<Carro> getCarros() {
@@ -51,14 +50,6 @@ public class Pessoa {
 
     public void setDataNascimento(LocalDate dataNascimento) {
         this.dataNascimento = dataNascimento;
-    }
-
-    public int getCodPessoa() {
-        return codPessoa;
-    }
-
-    public void setCodPessoa(int codPessoa) {
-        this.codPessoa = codPessoa;
     }
 
     //Adicionar carros a pessoas.
