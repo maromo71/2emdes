@@ -38,6 +38,7 @@ public class Forca {
         Random r = new Random();
         int posicao = r.nextInt(map.size());
         int i = 0;
+        //Estudar 
         for (Map.Entry<String, String> sorteio: map.entrySet()) {
             if(posicao == i){
                 palavra = sorteio.getKey();
